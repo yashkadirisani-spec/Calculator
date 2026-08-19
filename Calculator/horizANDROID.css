@@ -1,0 +1,191 @@
+body{
+	background-color: #1e1c52;
+
+}
+
+#content{
+	display: revert;
+	margin: auto
+}
+
+
+.Calcu{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.leftcolH{
+	display: flex;
+	flex-direction: column;
+}
+
+.rightcolH{
+display: flex;
+	flex-direction: column;
+}
+
+
+.numPad {
+	order: 2;
+	display: flex;
+	flex-direction: row;
+}
+.buttons{
+	order: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.plus{
+	background-color: #5951f0;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.mul{
+	background-color: #5951f0;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.sub{
+	background-color: #5951f0;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.divi{
+	background-color: #5951f0;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+
+
+.numButtons123{
+	justify-content: center;
+}
+.numButtons456{
+	justify-content: center;
+}.numButtons789{
+	justify-content: center;
+}
+.numButtonsDZD{
+	justify-content: center;
+}
+
+
+
+.one{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+.two{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+.three{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+.four{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.five{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.six{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.seven{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.eight{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.nine{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+.zero{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+	text-justify: 20;
+
+}
+.dot{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+	text-justify: 20;
+
+}
+
+.clearOne{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+	text-justify: 20;
+
+}
+
+
+
+
+
+.equals{
+	background-color: #fcb6f4;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+	font-size: 20px;
+	background-color: #fcb6f4;
+}
+.erase{
+	background-color: #fcb6f4;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+	font-size: 20px;
+	background-color: #7f9bf5;
+}
+
+

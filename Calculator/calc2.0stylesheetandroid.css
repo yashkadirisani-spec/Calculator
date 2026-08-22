@@ -1,0 +1,105 @@
+
+
+
+/* Apple portrait */
+
+body {
+
+	background-color: #1e1c52;
+
+}
+#content {
+	display: block;
+	margin: auto;
+}
+
+
+
+.Calcu {
+
+	display: flex;
+	margin: auto;
+	width: fit-content;
+
+}
+.numPad {
+	display: flex;
+	flex-direction: column;
+
+}
+.buttons {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Landscape *///////////////////////*/////*/
+
+.Calcu.colorSwitch {
+
+	flex-direction: column;
+	margin: auto;
+	width: fit-content;
+}
+.Calcu.colorSwitch .numPad {
+
+	order: 2;
+	flex-direction: row;
+}
+.Calcu.colorSwitch .buttons {
+	order: 1;
+	flex-direction: row;
+}
+.Calcu.colorSwitch .leftcolH {
+	display: flex;
+	flex-direction: column;
+}
+.Calcu.colorSwitch .rightcolH {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Combined classes, to shorten*/
+.plus, .mul, .sub, .divi {
+	background-color: #5951f0;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.numButtons123, .numButtons456, .numButtons789, .numButtonsDZD {
+	justify-content: center;
+
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.zero, .dot, .clearOne {
+	background-color: #240f8a;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+	text-justify: 20;
+}
+
+.equals {
+	background-color: #fcb6f4;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+	font-size: 20px;
+}
+
+.erase {
+	background-color: #fcb6f4;
+	color: white;
+	padding: 30px;
+	border-radius: 30px;
+	font-size: 20px;
+	background-color: #fcb6f4;
+}

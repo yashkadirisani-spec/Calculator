@@ -7,6 +7,6 @@ A simple Calculator that is able to switch color styles between Apple and Androi
 - Interactive UI
 
 #setup
-- Download the html, CSS(2 files), and the Js.
-- Run the files in any Code editor.
+- Download the html, CSS(2 files), and the JavaScript file in the "Calculator" Folder.
+- when everything is downloaded, Run the the HTML file in any code editor. 
 

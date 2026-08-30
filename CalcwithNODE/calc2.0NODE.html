@@ -1,0 +1,107 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+
+
+<link id = "theme" rel="stylesheet" href="calc2.0stylesheet.css">
+
+<!-- <link id = "themeAND" rel="stylesheet" href="calc2.0stylesheetandroid.css"> -->
+
+The Calculator <br>
+
+<textarea style ="width: 300px; height: 60px; resize: none;" id="content" readonly></textarea> <br>
+
+
+<div class="Calcu">
+
+
+<div class="numPad">
+
+
+	<div class="leftcolH">
+
+<div class="numButtons123">
+
+<button class ="one" onclick="sum(1)" > 1 </button>
+<button class ="two" onclick="sum(2)"> 2 </button>
+<button class ="three" onclick="sum(3)"> 3 </button> <br>
+
+</div>
+
+<div class="numButtons456">
+
+<button class ="four" onclick="sum(4)"> 4 </button>
+<button class ="five" onclick="sum(5)"> 5 </button>
+<button class ="six" onclick="sum(6)"> 6 </button> <br>
+
+</div>
+
+	</div>
+
+							<div class="rightcolH">
+
+<div class="numButtons789">
+
+<button class ="seven" onclick="sum(7)"> 7 </button>
+<button class ="eight" onclick="sum(8)"> 8 </button>
+<button class ="nine" onclick="sum(9)"> 9 </button> <br>
+
+</div>
+
+		<div class="numButtonsDZD">
+
+<button class ="clearOne" onclick="sum('--')"> <- </button>
+<button class ="zero" onclick="sum(0)"> 0 </button>
+<button class ="dot" onclick="sum('.')"> . </button>
+
+		</div>
+
+							</div>
+
+  </div>
+
+
+
+
+
+<div class="buttons">
+
+<button class ="plus" onclick="sum('+')"> + </button>
+<button class ="sub" onclick="sum('-')"> - </button>
+<button class ="mul" onclick="sum('*')"> * </button>
+<button class ="divi" onclick="sum('/')"> / </button> 
+
+<button class ="equals" onclick="sum('=')"> = </button>
+<button class ="erase" onclick="sum('AC')"> AC </button>
+
+</div>
+
+<--------------> <br>
+
+  <br>
+
+</div>
+
+
+<button class ="andro" onclick="colorSwitch()"> Landscape/Portrait </button>
+<button class ="andro" onclick="androidColor()"> Android theme</button>
+<button class ="andro" onclick="appleColor()"> Apple theme</button>
+
+<!-- <button class ="andro" onclick="Port()"> Portrait mode </button> -->
+
+
+<script src="calcfunctionNODE.js"></script>
+ 
+
+
+</body>
+</html>
+
